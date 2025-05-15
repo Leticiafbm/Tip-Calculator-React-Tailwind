@@ -57,7 +57,7 @@ const App = () => {
             id="bill" 
             value={bill}
             placeholder="0"
-            image="./src/assets/images/icon-dollar.svg" 
+            image="./assets/images/icon-dollar.svg" 
             onChange={(e) => setBill(Number(e.target.value))}
           />
 
@@ -93,7 +93,7 @@ const App = () => {
             id="peopleNum"
             value={people}
             placeholder="1"
-            image="./src/assets/images/icon-person.svg"
+            image="./assets/images/icon-person.svg"
             onChange={(e) => {
               const val = Number(e.target.value);
               setPeople(val === 0 ? 1 : val);
